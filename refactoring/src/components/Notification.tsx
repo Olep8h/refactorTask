@@ -3,8 +3,8 @@ import { Check } from 'tabler-icons-react';
 
 export const notifySlotReservation = (time: string) => {
   showNotification({
-    title: 'Reservation Successful',
-    message: `You have successfully reserved the slot at ${time}.`,
+    title: 'Úspěšná rezervace.',
+    message: `Úspěšně jste si rezervovali slot v ${time}.`,
     color: 'green',
     icon: <Check size={14} />,
     autoClose: 3000,
